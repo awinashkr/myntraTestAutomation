@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="39" passed="39">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameterization Test Suite" duration-ms="304253" started-at="2018-06-11T13:52:22Z" finished-at="2018-06-11T13:57:26Z">
+    <groups>
+    </groups>
+    <test name="Verify search a product for guest user" duration-ms="37746" started-at="2018-06-11T13:52:22Z" finished-at="2018-06-11T13:53:00Z">
+      <class name="com.myntra.TestAutomation.VerifySearchProductWithGuestUser">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="openUrl" is-config="true" duration-ms="11427" started-at="2018-06-11T19:22:22Z" finished-at="2018-06-11T19:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="initPageFactor()[pri:0, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="initPageFactor" is-config="true" duration-ms="2" started-at="2018-06-11T19:22:33Z" finished-at="2018-06-11T19:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageFactor -->
+        <test-method status="PASS" signature="CheckMyntraHomePage()[pri:1, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="CheckMyntraHomePage" duration-ms="450" started-at="2018-06-11T19:22:33Z" description="open myntra home page and clear cart" finished-at="2018-06-11T19:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMyntraHomePage -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:2, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="searchForProducts" duration-ms="6651" started-at="2018-06-11T19:22:34Z" description="Search for Product" data-provider="products" finished-at="2018-06-11T19:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:2, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="searchForProducts" duration-ms="4761" started-at="2018-06-11T19:22:41Z" description="Search for Product" data-provider="products" finished-at="2018-06-11T19:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:2, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="searchForProducts" duration-ms="3504" started-at="2018-06-11T19:22:46Z" description="Search for Product" data-provider="products" finished-at="2018-06-11T19:22:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[toy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:2, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="searchForProducts" duration-ms="4360" started-at="2018-06-11T19:22:49Z" description="Search for Product" data-provider="products" finished-at="2018-06-11T19:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.TestAutomation.VerifySearchProductWithGuestUser@3ee0fea4]" name="tearDown" is-config="true" duration-ms="6094" started-at="2018-06-11T19:22:53Z" finished-at="2018-06-11T19:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.TestAutomation.VerifySearchProductWithGuestUser -->
+    </test> <!-- Verify search a product for guest user -->
+    <test name="Verify search a product for registered user" duration-ms="34825" started-at="2018-06-11T13:53:00Z" finished-at="2018-06-11T13:53:34Z">
+      <class name="com.myntra.TestAutomation.VerifySearchProductForRegisteredUser">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.myntra.TestAutomation.VerifySearchProductForRegisteredUser@3e3047e6]" name="openUrl" is-config="true" duration-ms="9251" started-at="2018-06-11T19:23:00Z" finished-at="2018-06-11T19:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="initPageFactor()[pri:0, instance:com.myntra.TestAutomation.VerifySearchProductForRegisteredUser@3e3047e6]" name="initPageFactor" is-config="true" duration-ms="1" started-at="2018-06-11T19:23:09Z" finished-at="2018-06-11T19:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageFactor -->
+        <test-method status="PASS" signature="CheckMyntraHomePage()[pri:1, instance:com.myntra.TestAutomation.VerifySearchProductForRegisteredUser@3e3047e6]" name="CheckMyntraHomePage" duration-ms="28" started-at="2018-06-11T19:23:09Z" description="open myntra home page and clear cart" finished-at="2018-06-11T19:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMyntraHomePage -->
+        <test-method status="PASS" signature="clickOnLOginButton()[pri:2, instance:com.myntra.TestAutomation.VerifySearchProductForRegisteredUser@3e3047e6]" name="clickOnLOginButton" duration-ms="2254" started-at="2018-06-11T19:23:09Z" description="click on LOgin button" finished-at="2018-06-11T19:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLOginButton -->
+        <test-method status="PASS" signature="enerUserCredentials(java.lang.String, java.lang.String)[pri:3, instance:com.myntra.TestAutomation.VerifySearchProductForRegisteredUser@3e3047e6]" name="enerUserCredentials" duration-ms="11664" started-at="2018-06-11T19:23:11Z" description="enter user credentials" finished-at="2018-06-11T19:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[awinashkumar9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143awinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enerUserCredentials -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:4, instance:com.myntra.TestAutomation.VerifySearchProductForRegisteredUser@3e3047e6]" name="searchForProducts" duration-ms="5525" started-at="2018-06-11T19:23:23Z" description="Search for Product" finished-at="2018-06-11T19:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.TestAutomation.VerifySearchProductForRegisteredUser@3e3047e6]" name="tearDown" is-config="true" duration-ms="5885" started-at="2018-06-11T19:23:29Z" finished-at="2018-06-11T19:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.TestAutomation.VerifySearchProductForRegisteredUser -->
+    </test> <!-- Verify search a product for registered user -->
+    <test name="Verify saved item in wish list" duration-ms="39358" started-at="2018-06-11T13:53:35Z" finished-at="2018-06-11T13:54:14Z">
+      <class name="com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="openUrl" is-config="true" duration-ms="9200" started-at="2018-06-11T19:23:35Z" finished-at="2018-06-11T19:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="initPageFactor()[pri:0, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="initPageFactor" is-config="true" duration-ms="1" started-at="2018-06-11T19:23:44Z" finished-at="2018-06-11T19:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageFactor -->
+        <test-method status="PASS" signature="CheckMyntraHomePage()[pri:1, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="CheckMyntraHomePage" duration-ms="34" started-at="2018-06-11T19:23:44Z" description="open myntra home page and clear cart" finished-at="2018-06-11T19:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMyntraHomePage -->
+        <test-method status="PASS" signature="clickOnLOginButton()[pri:2, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="clickOnLOginButton" duration-ms="2652" started-at="2018-06-11T19:23:44Z" description="click on LOgin button" finished-at="2018-06-11T19:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLOginButton -->
+        <test-method status="PASS" signature="enerUserCredentials(java.lang.String, java.lang.String)[pri:3, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="enerUserCredentials" duration-ms="11819" started-at="2018-06-11T19:23:46Z" description="enter user credentials" finished-at="2018-06-11T19:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[awinashkumar9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143awinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enerUserCredentials -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:4, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="searchForProducts" duration-ms="6088" started-at="2018-06-11T19:23:58Z" description="Search for Product" finished-at="2018-06-11T19:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="userSelectFirstProduct()[pri:5, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="userSelectFirstProduct" duration-ms="272" started-at="2018-06-11T19:24:04Z" description="Select first product" finished-at="2018-06-11T19:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectFirstProduct -->
+        <test-method status="PASS" signature="clickOnWhishListOption()[pri:6, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="clickOnWhishListOption" duration-ms="2411" started-at="2018-06-11T19:24:05Z" description="Click on wish list option" finished-at="2018-06-11T19:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWhishListOption -->
+        <test-method status="PASS" signature="checkItemAddedInWishList()[pri:7, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="checkItemAddedInWishList" duration-ms="155" started-at="2018-06-11T19:24:07Z" description="Check item added in wish list" finished-at="2018-06-11T19:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItemAddedInWishList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem@45dd4eda]" name="tearDown" is-config="true" duration-ms="6617" started-at="2018-06-11T19:24:07Z" finished-at="2018-06-11T19:24:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem -->
+    </test> <!-- Verify saved item in wish list -->
+    <test name="Verify items removed from wish list" duration-ms="40618" started-at="2018-06-11T13:54:14Z" finished-at="2018-06-11T13:54:55Z">
+      <class name="com.myntra.TestAutomation.VerifyRemoveItemFromWishList">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="openUrl" is-config="true" duration-ms="9199" started-at="2018-06-11T19:24:14Z" finished-at="2018-06-11T19:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="initPageFactor()[pri:0, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="initPageFactor" is-config="true" duration-ms="0" started-at="2018-06-11T19:24:23Z" finished-at="2018-06-11T19:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageFactor -->
+        <test-method status="PASS" signature="CheckMyntraHomePage()[pri:1, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="CheckMyntraHomePage" duration-ms="24" started-at="2018-06-11T19:24:23Z" description="open myntra home page and clear cart" finished-at="2018-06-11T19:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMyntraHomePage -->
+        <test-method status="PASS" signature="clickOnLoginButton()[pri:2, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="clickOnLoginButton" duration-ms="2910" started-at="2018-06-11T19:24:23Z" description="click on Login button" finished-at="2018-06-11T19:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginButton -->
+        <test-method status="PASS" signature="enerUserCredentials(java.lang.String, java.lang.String)[pri:3, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="enerUserCredentials" duration-ms="12174" started-at="2018-06-11T19:24:26Z" description="enter user credentials" finished-at="2018-06-11T19:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[awinashkumar9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143awinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enerUserCredentials -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:4, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="searchForProducts" duration-ms="5948" started-at="2018-06-11T19:24:38Z" description="Search for Product" finished-at="2018-06-11T19:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="userSelectFirstProduct()[pri:5, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="userSelectFirstProduct" duration-ms="178" started-at="2018-06-11T19:24:44Z" description="Select first product" finished-at="2018-06-11T19:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectFirstProduct -->
+        <test-method status="PASS" signature="clickOnWhishListOption()[pri:6, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="clickOnWhishListOption" duration-ms="2198" started-at="2018-06-11T19:24:44Z" description="Click on wish list option" finished-at="2018-06-11T19:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWhishListOption -->
+        <test-method status="PASS" signature="removeAllProductsFromWishList()[pri:7, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="removeAllProductsFromWishList" duration-ms="1057" started-at="2018-06-11T19:24:47Z" description="Remove all products from wish list" finished-at="2018-06-11T19:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAllProductsFromWishList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.TestAutomation.VerifyRemoveItemFromWishList@fdefd3f]" name="tearDown" is-config="true" duration-ms="6826" started-at="2018-06-11T19:24:48Z" finished-at="2018-06-11T19:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.TestAutomation.VerifyRemoveItemFromWishList -->
+    </test> <!-- Verify items removed from wish list -->
+    <test name="Verify Items in CartPage" duration-ms="45443" started-at="2018-06-11T13:54:55Z" finished-at="2018-06-11T13:55:40Z">
+      <class name="com.myntra.TestAutomation.VerifyItemsInCartPage">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="openUrl" is-config="true" duration-ms="8423" started-at="2018-06-11T19:24:55Z" finished-at="2018-06-11T19:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="initPageFactor()[pri:0, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="initPageFactor" is-config="true" duration-ms="0" started-at="2018-06-11T19:25:03Z" finished-at="2018-06-11T19:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageFactor -->
+        <test-method status="PASS" signature="CheckMyntraHomePage()[pri:1, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="CheckMyntraHomePage" duration-ms="26" started-at="2018-06-11T19:25:03Z" description="open myntra home page and clear cart" finished-at="2018-06-11T19:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMyntraHomePage -->
+        <test-method status="PASS" signature="clickOnLoginButton()[pri:2, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="clickOnLoginButton" duration-ms="2208" started-at="2018-06-11T19:25:03Z" description="click on Login button" finished-at="2018-06-11T19:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginButton -->
+        <test-method status="PASS" signature="enerUserCredentials(java.lang.String, java.lang.String)[pri:3, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="enerUserCredentials" duration-ms="11600" started-at="2018-06-11T19:25:05Z" description="enter user credentials" finished-at="2018-06-11T19:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[awinashkumar9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143awinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enerUserCredentials -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:4, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="searchForProducts" duration-ms="5746" started-at="2018-06-11T19:25:17Z" description="Search for Product" finished-at="2018-06-11T19:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="userSelectFirstProduct()[pri:5, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="userSelectFirstProduct" duration-ms="184" started-at="2018-06-11T19:25:23Z" description="Select first product" finished-at="2018-06-11T19:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectFirstProduct -->
+        <test-method status="PASS" signature="clickOnWhishListOption()[pri:6, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="clickOnWhishListOption" duration-ms="2611" started-at="2018-06-11T19:25:23Z" description="Click on wish list option" finished-at="2018-06-11T19:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWhishListOption -->
+        <test-method status="PASS" signature="clickAddToBagButton()[pri:7, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="clickAddToBagButton" duration-ms="4335" started-at="2018-06-11T19:25:26Z" description="Click Add To Bag button" finished-at="2018-06-11T19:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddToBagButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.TestAutomation.VerifyItemsInCartPage@1460a8c0]" name="tearDown" is-config="true" duration-ms="10194" started-at="2018-06-11T19:25:30Z" finished-at="2018-06-11T19:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.TestAutomation.VerifyItemsInCartPage -->
+    </test> <!-- Verify Items in CartPage -->
+    <test name="Verify checkout from cart page" duration-ms="105930" started-at="2018-06-11T13:55:40Z" finished-at="2018-06-11T13:57:26Z">
+      <class name="com.myntra.TestAutomation.VerifyCheckoutFromCartPage">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="openUrl" is-config="true" duration-ms="9330" started-at="2018-06-11T19:25:40Z" finished-at="2018-06-11T19:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="initPageFactor()[pri:0, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="initPageFactor" is-config="true" duration-ms="0" started-at="2018-06-11T19:25:49Z" finished-at="2018-06-11T19:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageFactor -->
+        <test-method status="PASS" signature="CheckMyntraHomePage()[pri:1, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="CheckMyntraHomePage" duration-ms="19" started-at="2018-06-11T19:25:49Z" description="open myntra home page and clear cart" finished-at="2018-06-11T19:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMyntraHomePage -->
+        <test-method status="PASS" signature="clickOnLoginButton()[pri:2, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="clickOnLoginButton" duration-ms="2749" started-at="2018-06-11T19:25:49Z" description="click on Login button" finished-at="2018-06-11T19:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginButton -->
+        <test-method status="PASS" signature="enerUserCredentials(java.lang.String, java.lang.String)[pri:3, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="enerUserCredentials" duration-ms="12216" started-at="2018-06-11T19:25:52Z" description="enter user credentials" finished-at="2018-06-11T19:26:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[awinashkumar9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143awinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enerUserCredentials -->
+        <test-method status="PASS" signature="searchForProducts(java.lang.String)[pri:4, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="searchForProducts" duration-ms="5510" started-at="2018-06-11T19:26:04Z" description="Search for Product" finished-at="2018-06-11T19:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProducts -->
+        <test-method status="PASS" signature="userSelectFirstProduct()[pri:5, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="userSelectFirstProduct" duration-ms="147" started-at="2018-06-11T19:26:10Z" description="Select first product" finished-at="2018-06-11T19:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectFirstProduct -->
+        <test-method status="PASS" signature="clickOnWhishListOption()[pri:6, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="clickOnWhishListOption" duration-ms="1846" started-at="2018-06-11T19:26:10Z" description="Click on wish list option" finished-at="2018-06-11T19:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWhishListOption -->
+        <test-method status="PASS" signature="clickAddToBagButton()[pri:7, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="clickAddToBagButton" duration-ms="4199" started-at="2018-06-11T19:26:12Z" description="Click Add To Bag button" finished-at="2018-06-11T19:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddToBagButton -->
+        <test-method status="PASS" signature="clickCheckoutButton()[pri:8, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="clickCheckoutButton" duration-ms="2767" started-at="2018-06-11T19:26:16Z" description="Click on checkout from cart page" finished-at="2018-06-11T19:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckoutButton -->
+        <test-method status="PASS" signature="clickonContinueButton()[pri:9, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="clickonContinueButton" duration-ms="60787" started-at="2018-06-11T19:26:19Z" description="Click on continue button" finished-at="2018-06-11T19:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonContinueButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.TestAutomation.VerifyCheckoutFromCartPage@7ff95560]" name="tearDown" is-config="true" duration-ms="6210" started-at="2018-06-11T19:27:20Z" finished-at="2018-06-11T19:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.TestAutomation.VerifyCheckoutFromCartPage -->
+    </test> <!-- Verify checkout from cart page -->
+  </suite> <!-- Parameterization Test Suite -->
+</testng-results>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization Test Suite]">
+  <parameter name="password" value="143awinash"/>
+  <parameter name="product" value="shirts"/>
+  <parameter name="userName" value="awinashkumar9@gmail.com"/>
+  <listeners>
+    <listener class-name="com.myntra.util.ExtentReporterNG"/>
+  </listeners>
+  <test name="Verify search a product for guest user">
+    <classes>
+      <class name="com.myntra.TestAutomation.VerifySearchProductWithGuestUser"/>
+    </classes>
+  </test> <!-- Verify search a product for guest user -->
+  <test name="Verify search a product for registered user">
+    <parameter name="password" value="143awinash"/>
+    <parameter name="product" value="Pants"/>
+    <parameter name="userName" value="awinashkumar9@gmail.com"/>
+    <classes>
+      <class name="com.myntra.TestAutomation.VerifySearchProductForRegisteredUser"/>
+    </classes>
+  </test> <!-- Verify search a product for registered user -->
+  <test name="Verify saved item in wish list">
+    <parameter name="password" value="143awinash"/>
+    <parameter name="product" value="Pants"/>
+    <parameter name="userName" value="awinashkumar9@gmail.com"/>
+    <classes>
+      <class name="com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem"/>
+    </classes>
+  </test> <!-- Verify saved item in wish list -->
+  <test name="Verify items removed from wish list">
+    <parameter name="password" value="143awinash"/>
+    <parameter name="product" value="Pants"/>
+    <parameter name="userName" value="awinashkumar9@gmail.com"/>
+    <classes>
+      <class name="com.myntra.TestAutomation.VerifyRemoveItemFromWishList"/>
+    </classes>
+  </test> <!-- Verify items removed from wish list -->
+  <test name="Verify Items in CartPage">
+    <parameter name="password" value="143awinash"/>
+    <parameter name="product" value="shirts"/>
+    <parameter name="userName" value="awinashkumar9@gmail.com"/>
+    <classes>
+      <class name="com.myntra.TestAutomation.VerifyItemsInCartPage"/>
+    </classes>
+  </test> <!-- Verify Items in CartPage -->
+  <test name="Verify checkout from cart page">
+    <parameter name="password" value="143awinash"/>
+    <parameter name="product" value="shirts"/>
+    <parameter name="userName" value="awinashkumar9@gmail.com"/>
+    <classes>
+      <class name="com.myntra.TestAutomation.VerifyCheckoutFromCartPage"/>
+    </classes>
+  </test> <!-- Verify checkout from cart page -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

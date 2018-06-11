@@ -1,0 +1,59 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+
+	<listeners> 
+		<listener class-name="com.myntra.util.ExtentReporterNG"></listener>
+	</listeners>
+ 
+	<test name="Verify search a product for guest user">
+			<classes>
+				<class name="com.myntra.TestAutomation.VerifySearchProductWithGuestUser"/>
+			</classes>
+	</test>
+	
+	<test name="Verify search a product for registered user">
+			<parameter name ="userName" value = "awinashkumar9@gmail.com"/>
+			<parameter name ="password" value = "143awinash"/>
+			<parameter name ="product" value = "Pants"/>
+			<classes>
+				<class name="com.myntra.TestAutomation.VerifySearchProductForRegisteredUser"/>
+			</classes>
+	</test>
+	
+	<test name="Verify saved item in wish list">
+			<parameter name ="userName" value = "awinashkumar9@gmail.com"/>
+			<parameter name ="password" value = "143awinash"/>
+			<parameter name ="product" value = "Pants"/>
+			<classes>
+				<class name="com.myntra.TestAutomation.VerifyWishListPageAfterAddingItem"/>
+			</classes>
+	</test>
+
+	<test name="Verify items removed from wish list">
+			<parameter name ="userName" value = "awinashkumar9@gmail.com"/>
+			<parameter name ="password" value = "143awinash"/>
+			<parameter name ="product" value = "Pants"/>
+			<classes>
+				<class name="com.myntra.TestAutomation.VerifyRemoveItemFromWishList"/>
+			</classes>
+	</test>
+	
+	<test name="Verify Items in CartPage">
+			<parameter name ="userName" value = "awinashkumar9@gmail.com"/>
+			<parameter name ="password" value = "143awinash"/>
+			<parameter name ="product" value = "shirts"/>
+			<classes>
+				<class name="com.myntra.TestAutomation.VerifyItemsInCartPage"/>
+			</classes>
+	</test>
+	
+	<test name="Verify checkout from cart page">
+			<parameter name ="userName" value = "awinashkumar9@gmail.com"/>
+			<parameter name ="password" value = "143awinash"/>
+			<parameter name ="product" value = "shirts"/>
+			<classes>
+				<class name="com.myntra.TestAutomation.VerifyCheckoutFromCartPage"/>
+			</classes>
+	</test>
+	
+</suite>
