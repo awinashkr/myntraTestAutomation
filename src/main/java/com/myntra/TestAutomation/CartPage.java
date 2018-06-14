@@ -67,7 +67,9 @@ public class CartPage extends BasePage {
 		click(placeOrderButton);
 	}
 	
-	
+	public void clickNoItem() {
+		
+	}
 	
 
 }
