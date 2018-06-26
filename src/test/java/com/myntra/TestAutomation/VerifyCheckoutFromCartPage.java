@@ -16,7 +16,7 @@ public class VerifyCheckoutFromCartPage extends BaseTest {
 		super();
 	}
 
-	public void initPageFactory() {pages = new MyntraPages(super.driver);}
+
 
 	@BeforeClass
 	public void initPageFactor() {
